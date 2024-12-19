@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    padding: 1rem;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headline-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.headline {
+    font-size: 2.5rem;
+}
+
+.sub-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container input {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+.thank-you-message {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+form:valid .thank-you-message {
+    display: block;
+}
+
+/* Ícones Sociais */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0044cc;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .headline {
+        font-size: 2rem;
+    }
+}

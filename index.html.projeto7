@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Clínica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Logo Clínica</div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="headline-section">
+            <h1 class="headline">Uma clínica que você pode confiar</h1>
+            <p class="sub-text">Atendemos com dedicação e oferecemos os melhores tratamentos médicos para você e sua família.</p>
+        </section>
+
+        <!-- Formulário -->
+        <section class="form-section">
+            <h2 class="small-headline">Preencha o formulário para ter acesso aos tratamentos</h2>
+            <form method="post" action="#" class="form-container">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="tel" name="phone" placeholder="Telefone" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <button type="submit">Enviar</button>
+                <!-- Mensagem de Agradecimento -->
+                <p class="thank-you-message">Obrigado por preencher os seus dados.</p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé com ícones -->
+    <footer>
+        <div class="social-icons">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
